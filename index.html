@@ -8,7 +8,7 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
         <link rel="shortcut icon" href="assets/img/devicon.png" type="image/x-icon">
         <script src="https://kit.fontawesome.com/ce0680666c.js" crossorigin="anonymous"></script>
-
+        <link href="./assets/css/style.css" rel="stylesheet" />
     </head>
     <body id="page-top">
 
@@ -35,7 +35,7 @@
         </nav>
 
         <header class="principal bg-primary text-white text-center">
-            <div class="container d-flex align-items-center flex-column">
+                <div class="container d-flex align-items-center flex-column">
                 <!-- Imagem do Avatar-->
                 <img class="principal-avatar mb-5" src="assets/img/avatar-daniel.png" alt="Avatar do Daniel" />
                 <!-- Nome do DEV -->
@@ -49,7 +49,90 @@
                 <!-- Abaixo do nome do DEV-->
                 <p class="subtitulo font-weight-light mb-0">HTML - CSS - JavaScript</p>
             </div>
+            <div class="container d-flex justify-content-around align-items-center flex-column">
+                <!-- Imagem do Avatar-->
+                <img class="principal-avatar mb-5" src="assets/img/avatar-jethro.png" alt="Avatar do Jethro" />
+                <!-- Nome do DEV -->
+                <h1 class="titulo text-uppercase mb-0">Jethro Tiago</h1>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-code"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Abaixo do nome do DEV-->
+                <p class="subtitulo font-weight-light mb-0">HTML - CSS - JavaScript</p>
+            </div>
         </header>
-
+        <!-- Seção Portfolio-->
+        <section class="secao portfolio" id="portfolio">
+            <div class="container">
+                <!-- Portfolio Section Heading-->
+                <h2 class="secao-titulo text-center text-uppercase text-secondary mb-0">Portfolio</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-dark">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-code"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Portfolio Grid Items-->
+                <div class="row justify-content-center">
+                    <!-- Portfolio Item 1-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-projetos" src="assets/img/prog-at-workplace.png" alt="Projeto Daniel" />
+                        </div>                        
+                    </div>
+                    <!-- Portfolio Item 2-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-projetos" src="assets/img/prog-at-workplace.png" alt="Projeto Daniel" />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 3-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-projetos" src="assets/img/prog-at-workplace.png" alt="Projeto Daniel" />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 4-->
+                    <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-projetos" src="assets/img/prog-at-workplace.png" alt="Projeto Jethro" />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 5-->
+                    <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal5">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-projetos" src="assets/img/prog-at-workplace.png" alt="Projeto Jethro" />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 6-->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal6">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-projetos" src="assets/img/prog-at-workplace.png" alt="Projeto Jethro" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </body>
 </html>
