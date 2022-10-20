@@ -17,62 +17,61 @@
         <!-- Biblioteca de ícones-->
         <script src="https://kit.fontawesome.com/ce0680666c.js" crossorigin="anonymous"></script>
         <!-- Arquivos CSS-->
-        <link href="./assets/css/style.css" rel="stylesheet" />
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/navabar.css">
+        <link rel="stylesheet" href="assets/css/main.css">
+        <link rel="stylesheet" href="assets/css/portfolio.css">
     </head>
     <body id="page-top">
-
-        <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
-            <div class="container">
-                <a class="navbar-brand" href="#page-top">DEV Front-End</a>
-                <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button"
-                    data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    Menu
-                    <i class="fas fa-bars"></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
-                                href="#portfolio">Portfolio</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
-                                href="#about">Sobre</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
-                                href="#contact">Contato</a></li>
-                    </ul>
+        <header>
+            <nav class="navbar navbar-expand-lg text-uppercase fixed-top" style="background-color: #2C3E50">
+                <div class="container-fluid">
+                    <a class="navbar-brand textoNavBar" href="#page-top">Dev Front-End</a>
+                    <button class="navbar-toggler text-uppercase font-weight-bold text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <a class="nav-link textoNavBar" href="#portfolio">Portfolio</a>
+                            <a class="nav-link textoNavBar" href="#sobre">Sobre</a>
+                            <a class="nav-link textoNavBar" data-bs-toggle="modal" data-bs-target="#exampleModal" href="#contato">Contato</a>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </nav>
+            </nav>
+        </header>
 
-        <header class="principal bg-primary text-white text-center">
-                <div class="container d-flex align-items-center flex-column">
-                <!-- Imagem do Avatar-->
-                <img class="principal-avatar mb-5" src="assets/img/avatar-daniel.png" alt="Avatar do Daniel" />
-                <!-- Nome do DEV -->
+        <main class="principal text-white text-center" style="background-color: #1ABC9C">
+            <div class="container d-flex align-items-center flex-column">
+                <!-- Imagem do primeiro Avatar-->
+                <img class="primeiro-avatar mb-5" src="assets/img/avatar-daniel.png" alt="Avatar do Daniel" />
+                <!-- Nome do primeiro DEV -->
                 <h1 class="titulo text-uppercase mb-0">Daniel Jordão</h1>
                 <!-- Icon Divider-->
                 <div class="divider-custom divider-light">
                     <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-code"></i></div>
+                    <div class="divider-custom-icon iconeDivisor"><i class="fas fa-code"></i></div>
                     <div class="divider-custom-line"></div>
                 </div>
                 <!-- Abaixo do nome do DEV-->
                 <p class="subtitulo font-weight-light mb-0">HTML - CSS - JavaScript</p>
             </div>
             <div class="container d-flex justify-content-around align-items-center flex-column">
-                <!-- Imagem do Avatar-->
-                <img class="principal-avatar mb-5" src="assets/img/avatar-jethro.png" alt="Avatar do Jethro" />
-                <!-- Nome do DEV -->
+                <!-- Imagem do segundo Avatar-->
+                <img class="segundo-avatar mb-5" src="assets/img/avatar-jethro.png" alt="Avatar do Jethro" />
+                <!-- Nome do segundo DEV -->
                 <h1 class="titulo text-uppercase mb-0">Jethro Tiago</h1>
                 <!-- Icon Divider-->
                 <div class="divider-custom divider-light">
                     <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-code"></i></div>
+                    <div class="divider-custom-icon iconeDivisor"><i class="fas fa-code"></i></div>
                     <div class="divider-custom-line"></div>
                 </div>
                 <!-- Abaixo do nome do DEV-->
                 <p class="subtitulo font-weight-light mb-0">HTML - CSS - JavaScript</p>
             </div>
-        </header>
+        </main>
+
         <!-- Seção Portfolio-->
         <section class="secao portfolio" id="portfolio">
             <div class="container">
