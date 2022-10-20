@@ -1,22 +1,25 @@
 .primeiro-avatar {
-    width: 300px;
+    width: 250px;
     margin-top: 100px;
     border-radius: 100%;
 }
 
 .segundo-avatar {
-    width: 300px;
+    width: 250px;
     margin-top: 50px;
     border-radius: 100%;
 }
 
-.titulo,
-.subtitulo {
-    font-family: 'Lato', sans-serif;
+.titulo {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.7em;
+    font-weight: 700;
     text-transform: uppercase;
 }
 
 .subtitulo {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3em;
     padding: 10px;
 }
 

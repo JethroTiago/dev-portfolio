@@ -1,5 +1,10 @@
 .textoNavBar {
     font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px 10px 20px;
     font-weight: 700;
     color: #FFFFFF;
+}
+
+.textoNavBar:hover {
+    color: #1ABC9C;
 }
