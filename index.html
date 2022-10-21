@@ -180,6 +180,65 @@
                 </div>
             </div>
         </div>
+
+        <section class="page-section" id="contato" style="background-color: #FFFFFF">
+            <div class="container">
+                <!-- Cabeçalho do Contato-->
+                <h2 class="cabecalhoContato page-section-heading text-center text-uppercase text-secondary mb-0">Contato</h2>
+                <!-- Divisor de ícone-->
+                <div class="divider-custom text-center">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon iconeDivisorSobre"><i class="fas fa-code"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Formulário do Contato-->
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 col-xl-7">
+                        <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                            <!-- Input de nome-->
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="name" type="text" placeholder="Seu nome completo aqui..." data-sb-validations="required" data-sb-can-submit="no">
+                                <label for="name">Nome completo</label>
+                                <div class="invalid-feedback" data-sb-feedback="name:required">por favor, escreva seu nome.</div>
+                            </div>
+                            <!-- Input de Email-->
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" data-sb-can-submit="no">
+                                <label for="email">Endereço de Email</label>
+                                <div class="invalid-feedback" data-sb-feedback="email:required">Deixe o seu Email.</div>
+                                <div class="invalid-feedback" data-sb-feedback="email:email">Este Email não é válido.</div>
+                            </div>
+                            <!-- Input de telefone-->
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="phone" type="tel" placeholder="(xx) 9xxxx-xxxx" data-sb-validations="required" data-sb-can-submit="no">
+                                <label for="phone">Telefone para contato</label>
+                                <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
+                            </div>
+                            <!-- Message input-->
+                            <div class="form-floating mb-3">
+                                <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required" data-sb-can-submit="no"></textarea>
+                                <label for="message">Mensagem</label>
+                                <div class="invalid-feedback" data-sb-feedback="message:required">Deixe a sua mensagem.</div>
+                            </div>
+                            <!-- Quando a mensagem foi enviada com sucesso-->
+                            <div class="d-none" id="submitSuccessMessage">
+                                <div class="text-center mb-3">
+                                    <div class="fw-bolder">Mensagem enviada com sucesso!</div>
+                                    Em breve entraremos em contato
+                                    <br>
+                                    <a href="#">#</a>
+                                </div>
+                            </div>
+                            <!-- Quando a mensagem não é enviada-->
+                            <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">A mensagem não foi enviada!</div></div>
+                            <!-- Botão de Submit-->
+                            <button class="btn btn-primary btn-xl disabled" id="submitButton" type="submit">Enviar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <!-- Portfolio Modal 1-->
         <div id="janelaModal1" class="modal fade">
             <div class="modal-dialog">

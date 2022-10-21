@@ -1,0 +1,11 @@
+.cabecalhoContato {
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3em;
+    font-weight: 700;
+    padding-top: 8vw;
+}
+
+label {
+    color: #2C3E50;
+}
