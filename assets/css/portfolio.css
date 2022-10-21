@@ -12,5 +12,10 @@
 }
 
 .card-img {
-    border-radius: 10px;
+    opacity: 5;
+	transition: 400ms;
+}
+
+.card-img:hover {
+	opacity: 0.3;
 }
