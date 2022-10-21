@@ -1,5 +1,5 @@
 # dev-portfolio
-Um página web que mostra o portfolio de um profissional DEV
+Um página web que mostra o portfolio de uma dupla de DEVs profissionais
 
 -- soon --
 
