@@ -1,3 +1,7 @@
+.card{
+    background: transparent;
+    border: transparent;
+}
 .modal-header{
     background: #e1e6eb;
 }
