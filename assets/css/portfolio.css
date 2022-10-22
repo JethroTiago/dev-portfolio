@@ -19,3 +19,7 @@
 .card-img:hover {
 	opacity: 0.3;
 }
+
+.btn {
+    padding: 0;
+}
