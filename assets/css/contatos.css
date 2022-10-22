@@ -8,10 +8,20 @@
 
 label {
     color: #2C3E50;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
 }
 
 .iconeDivisorContato {
     color: #2C3E50;
     font-size: 25px;
     margin: 2vw 0 3vw 0;
+}
+
+.btn {
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    padding: 15px 20px 15px 20px;
+    margin-bottom: 5vw;
 }
