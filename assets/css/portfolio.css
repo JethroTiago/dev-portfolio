@@ -11,13 +11,8 @@
     margin-top: 2em;
 }
 
-.card-img {      
-    filter: grayscale(100%);
-}
-
 .card-img:hover {
-    transition: 800ms;	
-    filter: grayscale(0%);
+    transition: 800ms;    
 }
 
 .btn {
