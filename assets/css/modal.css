@@ -2,6 +2,11 @@
     background: transparent;
     border: transparent;
 }
+.card:hover{
+    transition: all 0.3s ease;
+    transform: scale(1.2);
+}
+
 .modal-header{
     background: #e1e6eb;
 }
