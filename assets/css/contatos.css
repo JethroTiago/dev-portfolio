@@ -30,3 +30,9 @@ label {
 .btn:hover {
     color: #1ABC9C;
 }
+
+@media (max-width: 425px) {
+    .secaoContato {
+        padding: 10px;
+    }
+}
