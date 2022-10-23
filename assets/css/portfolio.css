@@ -11,13 +11,13 @@
     margin-top: 2em;
 }
 
-.card-img {
-    opacity: 5;
-	transition: 400ms;
+.card-img {      
+    filter: grayscale(100%);
 }
 
 .card-img:hover {
-	opacity: 0.3;
+    transition: 800ms;	
+    filter: grayscale(0%);
 }
 
 .btn {
