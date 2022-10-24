@@ -1,7 +1,7 @@
-# dev-portfolio
-Um página web que mostra o portfolio de uma dupla de DEVs profissionais
+# devs-portfolio
+Um página web que mostra o portfolio de uma dupla de DEVs profissionais.
 
--- soon --
+A web page that shows the portfolio of two PROFESSIONAL DEVs.
 
 ### Deploy
 
@@ -9,7 +9,7 @@ http://dev-portfolio-kohl.vercel.app/
 
 ### Project Preview
 
-![DEVsPrint copy](https://user-images.githubusercontent.com/103612874/197367549-521dc5ca-1708-45fc-b748-3478d3ed07d6.jpg)
+![devs portfolio print](https://user-images.githubusercontent.com/103612874/197644968-cf34df3e-6caa-4e2b-8fb5-0302269af9d9.jpg)
 
 ## How it works
 
