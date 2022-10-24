@@ -1,31 +1,31 @@
-.card{
+.card {
     background: transparent;
     border: transparent;
 }
-.card:hover{
+
+.card:hover {
     transition: all 0.3s ease;
     transform: scale(1.2);
 }
 
-.modal-header{
+.modal-header {
     background: #e1e6eb;
 }
 
-.modal-title{
+.modal-title {
     color: #212529;
     font-weight: bold;
 }
 
-.modal-body{
+.modal-body {
     color: #212529;
-    text-align: justify;    
+    text-align: justify;
 }
 
-.modal-body p{
+.modal-body p {
     padding-top: 1rem;
 }
 
-.modal-footer{
+.modal-footer {
     background: #e1e6eb;
 }
-

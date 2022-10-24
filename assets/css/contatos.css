@@ -8,9 +8,9 @@
 
 label {
     color: #2C3E50;
-    text-transform: uppercase;
     font-family: 'Lato', sans-serif;
     font-weight: 700;
+    text-transform: uppercase;
 }
 
 .iconeDivisorContato {
@@ -22,9 +22,9 @@ label {
 .btn {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    text-transform: uppercase;
-    padding: 15px 20px 15px 20px;
     margin-bottom: 5vw;
+    padding: 15px 20px 15px 20px;
+    text-transform: uppercase;
 }
 
 .btn:hover {
