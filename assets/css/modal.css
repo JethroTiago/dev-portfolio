@@ -18,7 +18,11 @@
 
 .modal-body{
     color: #212529;
-    text-align: justify;
+    text-align: justify;    
+}
+
+.modal-body p{
+    padding-top: 1rem;
 }
 
 .modal-footer{
