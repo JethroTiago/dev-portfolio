@@ -1,28 +1,26 @@
 # devs-portfolio
-Um página web que mostra o portfolio de uma dupla de DEVs profissionais.
-
-A web page that shows the portfolio of two PROFESSIONAL DEVs.
+Devs-portfolio é um projeto elaborado por Daniel Jordão e Jethro Tiago, ambos desenvolvedores Front-end, tendo como objetivo a criação de um ambiente web para divulgação dos projetos desenvolvidos ao decorrer da carreira.
 
 ### Deploy
 
 http://dev-portfolio-kohl.vercel.app/
 
-### Project Preview
+### Visualização do Projeto
 
 ![devs portfolio print](https://user-images.githubusercontent.com/103612874/197644968-cf34df3e-6caa-4e2b-8fb5-0302269af9d9.jpg)
 
-## How it works
+## Como Funciona
 
-A page that displays some portfolios of two talented front-end developers.
+Trata-se de um ambiente web onde todos podem ter a oportunidade de visualizar os projetos desenvolvidos por Daniel Jordão e Jethro Tiago e acessá-los via link Modal para o GitHub.
 
-## Built with
+## Linguagens e estrutura de desenvolvimento
 
 * HTML5
 * CSS3
 * JavaScript
 * Bootstrap
 
-## With this activity, I was able to reinforce aspects of the tools below:
+## Com este projeto, tivemos a oportunidade de desenvolver novas habilidades e reforçar nossos conhecimentos:
 
 - HTML5 Structure
 - CSS organization
@@ -30,7 +28,7 @@ A page that displays some portfolios of two talented front-end developers.
 - Forms
 - Modal
 
-## Thanks to
+## Agradecimentos
 
 * Instrutor [Pedro Marins](https://github.com/pedromarins)
 
