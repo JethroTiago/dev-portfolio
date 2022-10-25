@@ -20,7 +20,9 @@ Trata-se de um ambiente web onde todos podem ter a oportunidade de visualizar os
 * JavaScript
 * Bootstrap
 
-## Com este projeto, tivemos a oportunidade de desenvolver novas habilidades e reforçar nossos conhecimentos:
+## Aprendizados:
+
+Este projeto nos proporcionou desenvolver novas habilidades e reforçar nossos conhecimentos técnicos:
 
 - HTML5 Structure
 - CSS organization
