@@ -23,7 +23,8 @@
     text-transform: uppercase;
 }
 
-p {
+p,
+a {
     font-family: 'Montserrat', sans-serif;
 }
 
