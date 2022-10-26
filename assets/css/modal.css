@@ -14,7 +14,13 @@
 
 .modal-title {
     color: #212529;
+    font-family: 'Montserrat', sans-serif;
     font-weight: bold;
+    text-transform: uppercase;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
 }
 
 .modal-body {
